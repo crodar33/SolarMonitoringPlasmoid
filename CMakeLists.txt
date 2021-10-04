@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 
-project(plasma-solarmonitoringplasmoiddd)
+project(plasma-solarmonitoringplasmoid)
  
 find_package(ECM 1.4.0 REQUIRED NO_MODULE)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
@@ -18,6 +18,7 @@ find_package(KF5 REQUIRED COMPONENTS
 find_package(Qt5 CONFIG REQUIRED COMPONENTS
     Quick
     Core
+    Network
 )
 
 add_subdirectory(src)
