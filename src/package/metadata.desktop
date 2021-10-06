@@ -7,7 +7,7 @@ Comment[ru]=Мониторинг панелей
 Icon=applications-system
 Type=Service
 X-KDE-ServiceTypes=Plasma/Applet
-X-KDE-Library=plasma_applet_solarmonitoringplasmoi
+X-KDE-Library=plasma_applet_solarmonitoringplasmoid
 
 X-KDE-PluginInfo-Author=Danil
 X-KDE-PluginInfo-Email=mcrodar@gmail.com

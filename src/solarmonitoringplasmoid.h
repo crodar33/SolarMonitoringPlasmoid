@@ -14,17 +14,18 @@
 class SolarMonitoringPlasmoid : public Plasma::Applet
 {
     Q_OBJECT
-    Q_PROPERTY(QString nativeText READ nativeText CONSTANT)
 
+signals:
+    void dataUpdate(float gridP, float loadP, float panelsP, float batteryP, float batteryC);
+public slots:
+        void cppSlot();
 public:
     SolarMonitoringPlasmoid( QObject *parent, const QVariantList &args );
     ~SolarMonitoringPlasmoid();
 
-    QString nativeText() const;
     void readPendingDatagrams();
 
 private:
-    QString m_nativeText;
     QUdpSocket* udpSocket;
 };
 

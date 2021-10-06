@@ -1,0 +1,48 @@
+Scanning dependencies of target org.kde.plasma.solarmonitoringplasmoid-plasmoids-metadata-json
+[ 16%] Generating org.kde.plasma.solarmonitoringplasmoid-plasmoids-metadata.json
+About to parse service type file "/usr/share/kservicetypes5/plasma-applet.desktop"
+Found property definition "X-Plasma-API" with type "QString"
+Found property definition "X-Plasma-RootPath" with type "QString"
+Found property definition "X-Plasma-MainScript" with type "QString"
+Found property definition "X-Plasma-ContainmentType" with type "QString"
+Found property definition "X-Plasma-DropMimeTypes" with type "QStringList"
+Found property definition "X-Plasma-DropUrlPatterns" with type "QStringList"
+Found property definition "X-Plasma-NotificationArea" with type "QString"
+Found property definition "X-Plasma-NotificationAreaCategory" with type "QString"
+Found property definition "X-Plasma-DBusActivationService" with type "QString"
+Found property definition "X-KDE-ParentApp" with type "QString"
+Found property definition "X-Plasma-Provides" with type "QStringList"
+Found property definition "X-Plasma-PreloadWeight" with type "int"
+Found property definition "X-Plasma-ConfigPlugins" with type "QStringList"
+Found property definition "X-Plasma-StandAloneApp" with type "bool"
+Found property definition "X-Plasma-RequiredExtensions" with type "QStringList"
+Found property definition "NoDisplay" with type "bool"
+Generated  "/media/dandi/datal/dev/inverter/SolarMonitoringPlasmoid/src/org.kde.plasma.solarmonitoringplasmoid-plasmoids-metadata.json"
+[ 16%] Built target org.kde.plasma.solarmonitoringplasmoid-plasmoids-metadata-json
+Scanning dependencies of target plasma_applet_solarmonitoringplasmoid_autogen
+[ 33%] Generating metadata.json
+About to parse service type file "/usr/share/kservicetypes5/plasma-applet.desktop"
+Found property definition "X-Plasma-API" with type "QString"
+Found property definition "X-Plasma-RootPath" with type "QString"
+Found property definition "X-Plasma-MainScript" with type "QString"
+Found property definition "X-Plasma-ContainmentType" with type "QString"
+Found property definition "X-Plasma-DropMimeTypes" with type "QStringList"
+Found property definition "X-Plasma-DropUrlPatterns" with type "QStringList"
+Found property definition "X-Plasma-NotificationArea" with type "QString"
+Found property definition "X-Plasma-NotificationAreaCategory" with type "QString"
+Found property definition "X-Plasma-DBusActivationService" with type "QString"
+Found property definition "X-KDE-ParentApp" with type "QString"
+Found property definition "X-Plasma-Provides" with type "QStringList"
+Found property definition "X-Plasma-PreloadWeight" with type "int"
+Found property definition "X-Plasma-ConfigPlugins" with type "QStringList"
+Found property definition "X-Plasma-StandAloneApp" with type "bool"
+Found property definition "X-Plasma-RequiredExtensions" with type "QStringList"
+Found property definition "NoDisplay" with type "bool"
+Generated  "/media/dandi/datal/dev/inverter/SolarMonitoringPlasmoid/src/metadata.json"
+[ 50%] Automatic MOC for target plasma_applet_solarmonitoringplasmoid
+[ 50%] Built target plasma_applet_solarmonitoringplasmoid_autogen
+Scanning dependencies of target plasma_applet_solarmonitoringplasmoid
+[ 66%] Building CXX object src/CMakeFiles/plasma_applet_solarmonitoringplasmoid.dir/plasma_applet_solarmonitoringplasmoid_autogen/mocs_compilation.cpp.o
+[ 83%] Building CXX object src/CMakeFiles/plasma_applet_solarmonitoringplasmoid.dir/solarmonitoringplasmoid.cpp.o
+[100%] Linking CXX shared module plasma_applet_solarmonitoringplasmoid.so
+[100%] Built target plasma_applet_solarmonitoringplasmoid

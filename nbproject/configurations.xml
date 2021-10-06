@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="Modules"
+                   displayName="Modules"
+                   projectFiles="true"
+                   root="/usr/share/cmake-3.18/Modules">
+      <itemPath>/usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp</itemPath>
+      <itemPath>/usr/share/cmake-3.18/Modules/CMakeCompilerABI.h</itemPath>
+    </logicalFolder>
+    <df root="." name="0">
+      <df name="build">
+        <df name="src">
+          <df name="plasma_applet_solarmonitoringplasmoid_autogen">
+            <in>mocs_compilation.cpp</in>
+          </df>
+        </df>
+      </df>
+      <df name="src">
+        <df name="plasma_applet_solarmonitoringplasmoid_autogen">
+          <in>mocs_compilation.cpp</in>
+        </df>
+        <in>solarmonitoringplasmoid.cpp</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Важные файлы"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>CMakeLists.txt</itemPath>
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+    <itemPath>run.sh</itemPath>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0"
+                 commonFlags="-fno-exceptions -Wvla -fPIC -fPIC -std=gnu++11"/>
+        <element flagsID="1" commonFlags="-std=c++14"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>./build</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <ccTool>
+            <preprocessorList>
+              <Elem>KCOREADDONS_LIB</Elem>
+              <Elem>QT_CORE_LIB</Elem>
+              <Elem>QT_GUI_LIB</Elem>
+              <Elem>QT_NETWORK_LIB</Elem>
+              <Elem>TRANSLATION_DOMAIN="plasma_applet_org.kde.plasma.solarmonitoringplasmoid"</Elem>
+              <Elem>_GNU_SOURCE</Elem>
+              <Elem>_LARGEFILE64_SOURCE</Elem>
+              <Elem>plasma_applet_solarmonitoringplasmoid_EXPORTS</Elem>
+            </preprocessorList>
+          </ccTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>./build</preBuildCommandWorkingDir>
+          <preBuildCommand>${CMAKE} -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=${IDE_CC} -DCMAKE_CXX_COMPILER=${IDE_CXX} -DCMAKE_C_FLAGS_DEBUG="-g3 -gdwarf-2" -DCMAKE_CXX_FLAGS_DEBUG="-g3 -gdwarf-2" -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ..</preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="/usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="build/src/plasma_applet_solarmonitoringplasmoid_autogen/mocs_compilation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <folder path="0">
+        <ccTool>
+          <incDir>
+            <pElem>src/plasma_applet_solarmonitoringplasmoid_autogen/include</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtGui</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtCore</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtNetwork</pElem>
+            <pElem>/usr/include/KF5</pElem>
+            <pElem>/usr/include/KF5/Plasma</pElem>
+            <pElem>/usr/include/KF5/KService</pElem>
+            <pElem>/usr/include/KF5/KConfigCore</pElem>
+            <pElem>/usr/include/KF5/KCoreAddons</pElem>
+            <pElem>/usr/include/KF5/KPackage</pElem>
+            <pElem>/usr/include/KF5/KI18n</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/build">
+        <ccTool>
+          <incDir>
+            <pElem>build/src</pElem>
+            <pElem>src</pElem>
+            <pElem>build/src/plasma_applet_solarmonitoringplasmoid_autogen/include</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/plasma_applet_solarmonitoringplasmoid_autogen">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="Modules">
+        <ccTool>
+          <incDir>
+            <pElem>build/src</pElem>
+            <pElem>src</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtGui</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtCore</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtNetwork</pElem>
+            <pElem>/usr/include/KF5</pElem>
+            <pElem>/usr/include/KF5/Plasma</pElem>
+            <pElem>/usr/include/KF5/KService</pElem>
+            <pElem>/usr/include/KF5/KConfigCore</pElem>
+            <pElem>/usr/include/KF5/KCoreAddons</pElem>
+            <pElem>/usr/include/KF5/KPackage</pElem>
+            <pElem>/usr/include/KF5/KI18n</pElem>
+            <pElem>/usr/include/c++/10</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/c++/10</pElem>
+            <pElem>/usr/include/c++/10/backward</pElem>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/10/include</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu</pElem>
+            <pElem>/usr/include</pElem>
+            <pElem>/media/dandi/datal/dev/inverter/SolarMonitoringPlasmoid/build/src/plasma_applet_solarmonitoringplasmoid_autogen</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="src/plasma_applet_solarmonitoringplasmoid_autogen/mocs_compilation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/solarmonitoringplasmoid.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>build/src</pElem>
+            <pElem>src</pElem>
+            <pElem>build/src/plasma_applet_solarmonitoringplasmoid_autogen/include</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtGui</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtCore</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtNetwork</pElem>
+            <pElem>/usr/include/KF5</pElem>
+            <pElem>/usr/include/KF5/Plasma</pElem>
+            <pElem>/usr/include/KF5/KService</pElem>
+            <pElem>/usr/include/KF5/KConfigCore</pElem>
+            <pElem>/usr/include/KF5/KCoreAddons</pElem>
+            <pElem>/usr/include/KF5/KPackage</pElem>
+            <pElem>/usr/include/KF5/KI18n</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
